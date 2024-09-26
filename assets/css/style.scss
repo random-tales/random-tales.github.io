@@ -10,8 +10,3 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 @import "{{ site.theme }}";
 
 /* append your custom style below */
-
-.christmas-greeting {
-  text-align: center;
-  color: #6EB5E6;
-}
